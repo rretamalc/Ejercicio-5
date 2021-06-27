@@ -8,12 +8,12 @@ namespace Ejercicio_5.Class
 {
     public class Sale
     {
-        public int Id;
-        public int IdClient;
-        public int SaleAmount;
-        public DateTime SaleDate;
-        public int SubTotal;
-        public int IdStore;
+        public int Id { get; set; }
+        public int IdClient { get; set; }
+        public double SaleAmount { get; set; }
+        public DateTime SaleDate { get; set; }
+        public double SubTotal { get; set; }
+        public int IdStore { get; set; }
 
     }
 }
