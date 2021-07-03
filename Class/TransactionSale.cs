@@ -50,6 +50,7 @@ namespace Ejercicio_5.Class
                                SubTotal = t.Sum(ta => ta.SaleAmount),
                            }).ToList();   
             return result;
+           
         }
     }
 }
